@@ -1,8 +1,9 @@
-import { FC, Fragment } from 'react';
+import { FC } from 'react';
 import ProvidersProps from './providers.types';
+import { UseFormProvider } from '@/hooks/useForm';
 
 const Providers: FC<ProvidersProps> = ({ children }: ProvidersProps) => {
-  return <Fragment>{children}</Fragment>;
+  return <UseFormProvider>{children}</UseFormProvider>;
 };
 
 export default Providers;

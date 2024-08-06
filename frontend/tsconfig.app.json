@@ -26,15 +26,16 @@
     /* Path Mapping */
     "paths": {
       "@/*": ["./src/*"],
-      "@assets/*": ["./src/assets/*"],
-      "@components/*": ["./src/components/*"],
-      "@hooks/*": ["./src/hooks/*"],
-      "@services/*": ["./src/services/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@providers/*": ["./src/providers/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@routes/*": ["./src/routes/*"],
-      "@utils/*": ["./src/utils/*"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/services/*": ["./src/services/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/providers/*": ["./src/providers/*"],
+      "@/layouts/*": ["./src/layouts/*"],
+      "@/routes/*": ["./src/routes/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/libs/*": ["./src/libs/*"]
     }
   },
   "include": ["src"]

@@ -1,6 +1,6 @@
+import Home from '@/pages/home';
 import { FC } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from '../pages/home/home';
 
 const AppRouter: FC = () => {
   return (
