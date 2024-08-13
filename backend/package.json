@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "yarn build &&node dist/index.js"
+    "start": "npm run build &&node dist/index.js"
   },
   "dependencies": {
     "@octokit/rest": "^21.0.1",
